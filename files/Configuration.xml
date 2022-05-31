@@ -89,7 +89,7 @@
 			<Role>AINSYS_пользователь</Role>
 			<CommonModule>AINSYS_сервер</CommonModule>
 			<CommonModule>AINSYS_HTTP</CommonModule>
-			<CommonModule>AINSYS_Переопределяемый</CommonModule>
+			<CommonModule>AINSYS_Определяемый</CommonModule>
 			<HTTPService>AINSYS_сервис</HTTPService>
 			<Catalog>AINSYS_ОписаниеДанных</Catalog>
 			<Catalog>AINSYS_ПланыСинхронизации</Catalog>
