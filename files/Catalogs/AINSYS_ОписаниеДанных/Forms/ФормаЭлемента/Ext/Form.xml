@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -25,6 +25,7 @@
 			<ExtendedTooltip name="ОтключитьРасширеннаяПодсказка" id="39"/>
 		</CheckBoxField>
 		<UsualGroup name="Группа1" id="35">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="36"/>
@@ -58,6 +59,7 @@
 			</Events>
 		</InputField>
 		<UsualGroup name="Группа2" id="61">
+			<Behavior>Usual</Behavior>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="62"/>
@@ -76,6 +78,7 @@
 							<v8:content>Группа ручное описание</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаРучноеОписаниеРасширеннаяПодсказка" id="64"/>
@@ -93,6 +96,7 @@
 							<v8:content>Группа СКД</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Behavior>Usual</Behavior>
 					<Representation>None</Representation>
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаСКДРасширеннаяПодсказка" id="66"/>
@@ -135,6 +139,7 @@
 					<v8:content>Вкладки</v8:content>
 				</v8:item>
 			</ToolTip>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ВкладкиРасширеннаяПодсказка" id="71"/>
 			<Events>
 				<Event name="OnCurrentPageChange">ОбработкаСобытийПриСменеСтраницы</Event>
@@ -245,18 +250,22 @@
 						</Table>
 						<UsualGroup name="Группа9" id="213">
 							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа9РасширеннаяПодсказка" id="214"/>
 							<ChildItems>
-								<TextDocumentField name="ДатаСверкиПолей" id="210">
+								<InputField name="ДатаСверкиПолей" id="210">
 									<DataPath>Объект.ДатаСверкиПолей</DataPath>
+									<Width>12</Width>
+									<Height>1</Height>
 									<ContextMenu name="ДатаСверкиПолейКонтекстноеМеню" id="211"/>
 									<ExtendedTooltip name="ДатаСверкиПолейРасширеннаяПодсказка" id="212"/>
-								</TextDocumentField>
+								</InputField>
 								<TextDocumentField name="НовыеПоля" id="215">
 									<DataPath>НовыеПоля</DataPath>
 									<ReadOnly>true</ReadOnly>
+									<Width>5</Width>
 									<ContextMenu name="НовыеПоляКонтекстноеМеню" id="216"/>
 									<ExtendedTooltip name="НовыеПоляРасширеннаяПодсказка" id="217"/>
 								</TextDocumentField>
@@ -319,6 +328,7 @@
 						</UsualGroup>
 						<UsualGroup name="Группа3" id="90">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="91"/>
@@ -385,6 +395,7 @@
 						</UsualGroup>
 						<UsualGroup name="Группа6" id="121">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа6РасширеннаяПодсказка" id="122"/>
@@ -451,6 +462,7 @@
 						</UsualGroup>
 						<UsualGroup name="Группа8" id="208">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа8РасширеннаяПодсказка" id="209"/>
@@ -476,6 +488,7 @@
 						</UsualGroup>
 						<UsualGroup name="Группа7" id="201">
 							<Group>AlwaysHorizontal</Group>
+							<Behavior>Usual</Behavior>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="Группа7РасширеннаяПодсказка" id="202"/>

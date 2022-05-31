@@ -23,16 +23,6 @@
 			<field>ТочностьПоля</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>ОписаниеСущности</dataPath>
-			<field>ОписаниеСущности</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Описание сущности</v8:content>
-				</v8:item>
-			</title>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ОписаниеПоля</dataPath>
 			<field>ОписаниеПоля</field>
 			<title xsi:type="v8:LocalStringType">
@@ -64,11 +54,20 @@
 			<dataPath>ИмяРодителя</dataPath>
 			<field>ИмяРодителя</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОтправлятьДанныеКорУзлу</dataPath>
+			<field>ОтправлятьДанныеКорУзлу</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Описание</dataPath>
+			<field>Описание</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	AINSYS_ОписаниеДанных.Ссылка КАК Ссылка,
+	AINSYS_ОписаниеДанных.ОтправлятьДанныеКорУзлу КАК ОтправлятьДанныеКорУзлу,
 	AINSYS_ОписаниеДанных.Наименование КАК Наименование,
-	AINSYS_ОписаниеДанных.Описание КАК ОписаниеСущности,
+	AINSYS_ОписаниеДанных.Описание КАК Описание,
 	AINSYS_ОписаниеДанныхПоляОбъектаДанных.ИмяПоля КАК ИмяПоля,
 	AINSYS_ОписаниеДанныхПоляОбъектаДанных.Описание КАК ОписаниеПоля,
 	AINSYS_ОписаниеДанныхПоляОбъектаДанных.ТипПоля КАК ТипПоля,
@@ -80,10 +79,11 @@
 	Справочник.AINSYS_ОписаниеДанных КАК AINSYS_ОписаниеДанных
 		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.AINSYS_ОписаниеДанных.ПоляОбъектаДанных КАК AINSYS_ОписаниеДанныхПоляОбъектаДанных
 		ПО (AINSYS_ОписаниеДанныхПоляОбъектаДанных.Ссылка = AINSYS_ОписаниеДанных.Ссылка)
-			И (НЕ AINSYS_ОписаниеДанныхПоляОбъектаДанных.Отключено)
+		И (НЕ AINSYS_ОписаниеДанныхПоляОбъектаДанных.Отключено)
 ГДЕ
 	НЕ AINSYS_ОписаниеДанных.Отключено
-	И AINSYS_ОписаниеДанных.ПланСинхронизации = &amp;ПланСинхронизации</query>
+	И AINSYS_ОписаниеДанных.ПланСинхронизации = &amp;ПланСинхронизации
+	И НЕ AINSYS_ОписаниеДанных.ПометкаУдаления</query>
 	</dataSet>
 	<calculatedField>
 		<dataPath>id</dataPath>
@@ -121,7 +121,7 @@
 					<dcsset:field>Наименование</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>ОписаниеСущности</dcsset:field>
+					<dcsset:field>Описание</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ИмяРодителя</dcsset:field>
@@ -144,6 +144,9 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>КомментарийКПолю</dcsset:field>
 				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОтправлятьДанныеКорУзлу</dcsset:field>
+				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -151,6 +154,12 @@
 					<dcscor:value xsi:nil="true"/>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеРеквизитов</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionAttributesPlacement">Separately</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:name>Сущность</dcsset:name>
 				<dcsset:groupItems>
@@ -169,7 +178,14 @@
 						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 					</dcsset:item>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>ОписаниеСущности</dcsset:field>
+						<dcsset:field>Описание</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ОтправлятьДанныеКорУзлу</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
