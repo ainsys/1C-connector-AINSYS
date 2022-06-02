@@ -86,18 +86,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="65bbee05-a504-44fe-bace-18e9057fe858">
-				<Properties>
-					<Name>Ссылка</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Ссылка</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="637dbc32-51b1-482d-809b-a0fd98d74d14">
 				<Properties>
 					<Name>Массив</Name>
@@ -129,6 +117,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Base64</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="71d00b7e-f656-4f7e-a645-a16946b5ef93">
+				<Properties>
+					<Name>Идентификатор</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Идентификатор</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
