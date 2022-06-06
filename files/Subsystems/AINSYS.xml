@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">0083a155-f943-4426-8670-85b656ec4476</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.AINSYS_НовыеПоля</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.AINSYS_Журнал</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -95,6 +95,7 @@
 			<Catalog>AINSYS_ПланыСинхронизации</Catalog>
 			<Enum>AINSYS_СпособВыбокиДанных</Enum>
 			<Enum>AINSYS_ТипыДанных</Enum>
+			<DataProcessor>AINSYS_УниверсальныйОбменДаннымиXML</DataProcessor>
 			<InformationRegister>AINSYS_НовыеПоля</InformationRegister>
 			<InformationRegister>AINSYS_Журнал</InformationRegister>
 		</ChildObjects>

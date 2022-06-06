@@ -63,8 +63,96 @@
 		<Metadata name="CommonPicture.AINSYS.Picture" id="4cce8408-8aa9-4c68-a229-f7c40439e242.0" configVersion="771e26af835f8eec187f71a1b291fc54e583be37"/>
 		<Metadata name="CommonPicture.AINSYS_32" id="8413b2b1-060f-47f7-95a6-0d72c00954e1" configVersion="e34e879ba106b582421544830283c5fcecca72e8"/>
 		<Metadata name="CommonPicture.AINSYS_32.Picture" id="8413b2b1-060f-47f7-95a6-0d72c00954e1.0" configVersion="ee3deaf012fe7658d420a52cfb90212c46ecd6de"/>
-		<Metadata name="Configuration.AINSYS" id="3a3373d0-f996-4d14-b9bb-49406c3b2d30" configVersion="6b9db5c92216f4dd7d23f7a376eaef1306f26134"/>
+		<Metadata name="Configuration.AINSYS" id="3a3373d0-f996-4d14-b9bb-49406c3b2d30" configVersion="3b31dde0b5826401a64184ea10df32b05eb17b55"/>
 		<Metadata name="Configuration.AINSYS.Logo" id="fe941078-c598-49b6-abff-b7fa3fee43ab.1" configVersion="771e26af835f8eec187f71a1b291fc54e583be37"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML" id="c43503dd-4c23-4a27-9737-b3abf98dda5a" configVersion="3d8bf03116d08900720ac2dfcb8a99e369a32cb5">
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПравилОбмена" id="0ecb673f-0e8e-454b-95bd-bc777e20fcc0"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВестиДополнительныйКонтрольЗаписиВXML" id="22464e9f-b528-46e4-95cd-226a47d1e9b3"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяВременногоФайлаПротоколаОбмена" id="2388ce99-b1d6-46f7-940c-72d8a8a4938d"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ПостроительОтчета" id="25bff45c-2854-4f02-acf6-cda4881effe9"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаНастройкиПараметров" id="29b0d4e1-1232-49a2-be38-496867ff25f4"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаПравилВыгрузки" id="2ad32194-1832-4e2b-bb46-1791b66216b4"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ФлагОшибки" id="2b0138f5-19f4-4027-983b-cd5f22b63ac7"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаОбработчиковСобытий" id="328e134f-1ad2-4ee0-9f06-b20c0d9632d3"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИспользоватьТранзакции" id="33c24bee-e2b8-42e3-a267-2e901480ec14"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.НеВыводитьНикакихИнформационныхСообщенийПользователю" id="33fbcde2-32be-4139-b2c9-45dc1b89b368"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ДатаНачала" id="3674e414-5a4e-4b5a-b498-975ea1163994"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяВременногоФайлаОбработчиковСобытий" id="39a12364-3d0d-4343-a572-22dc70c5f513"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ПарольИнформационнойБазыДляПодключения" id="3d0d828b-11dd-4a6c-a701-a4a3927b88ea"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ПарольДляСжатияФайлаОбмена" id="45d6f778-7bc2-4a61-abc2-aef66581c4bf"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ЗагружатьДанныеВРежимеОбмена" id="4798a3e8-9f48-4406-9f56-60110692d932"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОбработкиНастройкиЗагрузки" id="47b5d9a2-dddf-4017-bea4-93dade2930a9"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаПравилОчистки" id="4f98e3e7-6757-4b0c-bf19-64be01982d45"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ПользовательИнформационнойБазыДляПодключения" id="596f2111-fca5-4cc3-b903-31b5403afec9"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяИнформационнойБазыНаСервереДляПодключения" id="5b017c0b-71a5-4748-bc4a-0423bee12c34"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ДатаОкончания" id="5ef70b02-54e8-436f-847c-928f072713fd"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВыгружатьТолькоРазрешенные" id="6463e369-7d6a-465c-8a29-76de37beb865"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.НеЗадаватьВопросПриЗагрузкеДанныхПриОткрытииОбработки" id="65999a52-2d00-4dca-bfd7-d60760d0cea5"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОптимизированнаяЗаписьОбъектов" id="67cafc81-40bb-4c3d-bef4-6ab16781f4d7"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ПарольДляРаспаковкиФайлаОбмена" id="6a796b33-5f95-4699-8a13-446dfd72bc85"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяСервераИнформационнойБазыДляПодключения" id="6eb73292-a018-4f59-bbf2-ef719b37fab4"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ЭтоИнтерактивныйРежим" id="73a04e83-614d-4a18-afc9-a52fcda6c0cd"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.БезопасныйРежим" id="77d41a5d-89ff-4a6c-9046-23e8ece1ac16"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаВнешнейОбработкиОбработчиковСобытий" id="7919ba3a-4047-487b-8c79-f66d6c0a74b3"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.РежимОтладкиАлгоритмов" id="7d3960e9-7714-462f-9625-f7921cbc5826"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КомментарийПриЗагрузкеДанных" id="820e8a0b-a7dd-430c-9313-a6a709817bc9"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОбрезатьСтрокиСправа" id="875666aa-f462-4811-93f4-923ab053e144"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОбъектыПоСсылкеЗагружатьБезПометкиУдаления" id="88eaa04d-6967-4552-ac4e-701d8ba7102e"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.АутентификацияWindowsИнформационнойБазыДляПодключения" id="8d429197-52ea-4e19-bdb5-31dc5c9d6e8e"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ЗадаватьВопросПриЗагрузкеДанныхПриОткрытииОбработки" id="911bf420-3ff2-4112-9453-efbd4db429d7"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КоличествоОбъектовНаТранзакцию" id="9189cfa3-77c7-45f9-a662-ae31b9213a60"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.АрхивироватьФайл" id="92dfd2f8-c1a8-47d5-88ad-cdd8c35571bf"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КоличествоОбработанныхОбъектовДляОбновленияСтатуса" id="a157f98f-1ae3-499a-a2ba-6ac21b1293bb"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.Данные" id="a29e2a9f-6497-422c-bebe-284eded0668c"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПротоколаОбменаЗагрузка" id="a4af6f64-43ee-498d-9f5e-7a28ba82ccfe"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ФлагРежимОтладки" id="a6b48966-cc1b-410a-a1b9-5a6cd5792584"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ЗаписыватьВИнформационнуюБазуТолькоИзмененныеОбъекты" id="a6f14e7f-b387-4160-8bb6-a0791a4557a6"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.Параметры" id="a76a9fa3-5259-4cb7-8493-a18698e53054"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВыводВПротоколИнформационныхСообщений" id="a95751a3-c656-4aa8-8371-62ca38f0cecc"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПротоколаОбмена" id="b24cca33-f466-4575-9784-02385321c99d"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.НастройкаАвтоматическойЗагрузкиДанных" id="b47105d5-4123-42f9-8809-535ad2bd6b3b"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаОбмена" id="b491e28f-0ac9-4213-9847-4e849913af65"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.БезопаснаяЗагрузка" id="b4e1bd94-39db-4534-9fdd-ca300e138277"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОбработчикиСобытийЧитаемИзФайлаПравилОбмена" id="b56aa03c-34af-48a7-8a5c-35fa267dff9c"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИспользоватьТранзакцииПриВыгрузкеДляПлановОбмена" id="b5af67ad-2fd7-4117-8c35-aed3b7e5e8e7"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВременныйКаталогРаботыСФайлами" id="b62c45d9-2ed9-4113-83fe-62d67e09cbd7"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КаталогИнформационнойБазыДляПодключения" id="b8ad359c-756a-434e-85f8-4dfa388e9327"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ДатаВыгрузкиДанных" id="b91af07c-ccf5-43d7-b19d-56cdfe0a454e"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.Комментарий" id="ba6591b2-cbb2-426f-9a04-fae028a44e4e"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОбработкиНастройкиВыгрузки" id="bb5e12e4-b8e9-45fa-bae4-1578365f05ce"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВерсияПлатформыИнформационнойБазыДляПодключения" id="bf5ff7df-5b9a-42bb-be06-8048245ac13b"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.РежимОбмена" id="bfcb6857-cf4c-4445-9ef1-fde6e19a7665"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ФлагРежимОтладкиОбработчиков" id="c1f0ada1-5a8d-46af-8ae8-c40448ea6cb1"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КодировкаФайлаПротоколаОбмена" id="c4cb34a5-a65e-494f-b0fb-b4bf82030b6a"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТипИнформационнойБазыДляПодключения" id="ce5af170-a4a0-4329-bc25-a45c0c260293"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КоличествоЭлементовВТранзакцииПриВыгрузкеДляПлановОбмена" id="d3a49d8a-c8f8-4175-8f66-5515a9a7158d"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.СохраненныеНастройки" id="d55804b5-4aff-42f7-b457-33d5a41e2d18"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.КомментарийПриВыгрузкеДанных" id="d75985e5-d780-4a84-a3dd-7ab8c985e2b5"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.НепосредственноеЧтениеВИБПриемнике" id="d937c5bd-0c07-489d-a9b1-8c21af55e8fe"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ЗаписыватьРегистрыНаборамиЗаписей" id="de33a86f-3bab-4fa8-94c3-af31b6309571"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТаблицаПравилКонвертации" id="dec9bbba-648f-4328-bae6-b40c9616f58f"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВыводВПротоколСообщенийОбОшибках" id="e6d41523-8488-4026-a154-2b7e75c1fc7d"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВыполнитьОбменДаннымиВОптимизированномФормате" id="ef7bf576-8052-4534-aada-2f1c2561eced"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВыводВОкноСообщенийИнформационныхСообщений" id="f10e493b-289c-4709-8462-8250b6d957bf"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ДописыватьДанныеВПротоколОбмена" id="f20de0c1-b1fd-412b-9cde-3a0d4ae9dfe4"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ОткрыватьПротоколыОбменаПослеВыполненияОпераций" id="f73a1104-a23f-4720-b43a-06473f219121"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИспользоватьОтборПоДатеДляВсехОбъектов" id="f7e839ed-efa6-44ba-b753-39a842aa62f7"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ВерсияПравилОбмена" id="fa8d981c-6c9a-4d8d-bdc3-67a547d28243"/>
+			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТипУдаленияРегистрацииИзмененийДляУзловОбменаПослеВыгрузки" id="fcb219c1-1e83-4fcc-8b38-cde6304d192e"/>
+		</Metadata>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма" id="7a009956-c17c-45ec-a128-561e53efcf85" configVersion="ca0b551a1556556837cee7715ae8496551328243"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма.Form" id="7a009956-c17c-45ec-a128-561e53efcf85.0" configVersion="9c8aa7d2bab540d20521291787c76a2a6812d827"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФормаНастройкиОтладкиОбработчиков" id="29cac165-4e60-4ec6-8f90-ad2385a3b7b8" configVersion="331fa3168e3c5649f457ad7b4625aba75119fa34"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФормаНастройкиОтладкиОбработчиков.Form" id="29cac165-4e60-4ec6-8f90-ad2385a3b7b8.0" configVersion="a32b9a4fa0581c764a8c3f102e1a10e256b04085"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Help" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.1" configVersion="ff773bc057a4790867b9dbcfd03870c9e66698a8"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.ManagerModule" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.2" configVersion="fa4b0fb7decb079ea0c91b961f07d282669e6b5b"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.ObjectModule" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.0" configVersion="086b5d6e404828aa3133655f51a4f4d1661e4e60"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.AINSYS_ПравилаВыгрузкиНастроек" id="4b69ec10-3e7d-4131-94d2-b0e2b422aa84" configVersion="7b4cbc5859c0649468d36bd3a50e286bfaba693c"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.AINSYS_ПравилаВыгрузкиНастроек.Template" id="4b69ec10-3e7d-4131-94d2-b0e2b422aa84.0" configVersion="4dafcdfffc431171bbfa5a549a87c56a4bdd4e13"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ОбщиеПроцедурыФункции" id="d654cada-45ff-408b-a068-f68e6a314de8" configVersion="821bfa23627d472b2860f87cc9c3438983eeb19d"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ОбщиеПроцедурыФункции.Template" id="d654cada-45ff-408b-a068-f68e6a314de8.0" configVersion="cf12b08f317ff47c32119cc7d7ae113aad67169f"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ПараметрыОбработчиков" id="6bf03f5e-a0ae-4252-a6fd-0313ba404858" configVersion="8b3ad4667d87ce0cd623300acf88938502451923"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ПараметрыОбработчиков.Template" id="6bf03f5e-a0ae-4252-a6fd-0313ba404858.0" configVersion="2e9fd0e168c042b23234ae5c26c29930bc2ab5d5"/>
 		<Metadata name="Enum.AINSYS_СпособВыбокиДанных" id="1790924c-c3c1-42e8-9165-091e1decfb76" configVersion="4ea20638f03babc06c6827c6a6920cb3c1e5c0e6">
 			<Metadata name="Enum.AINSYS_СпособВыбокиДанных.EnumValue.Программная" id="67894c84-9611-4fb4-b8f2-0e116c59f3d0"/>
 			<Metadata name="Enum.AINSYS_СпособВыбокиДанных.EnumValue.СКД" id="a1cf66a0-c3b6-4532-9825-cf72195b01be"/>
@@ -113,6 +201,6 @@
 		<Metadata name="Role.AINSYS_Админ.Rights" id="710ed208-e31e-4857-a41e-31dad18765d6.0" configVersion="2bbf806e1349e4e4422157ee9467e7af0b954fe6"/>
 		<Metadata name="Role.AINSYS_пользователь" id="48900286-d67f-48b9-87c9-98cac60a7072" configVersion="07a5dcc8d7f250efa6d4341981c887f9c3a4ad3c"/>
 		<Metadata name="Role.AINSYS_пользователь.Rights" id="48900286-d67f-48b9-87c9-98cac60a7072.0" configVersion="73fa47b96d4f6434a6d6938df8a76dcce1988095"/>
-		<Metadata name="Subsystem.AINSYS" id="b2d29d3b-9fca-4480-95a7-edf64c932563" configVersion="a624bd8861d6ff8728f3b992a0f11f3a90d93256"/>
+		<Metadata name="Subsystem.AINSYS" id="b2d29d3b-9fca-4480-95a7-edf64c932563" configVersion="445499ff96072e3796986c0243d418d76a7812fa"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
