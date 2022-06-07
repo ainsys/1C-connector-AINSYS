@@ -36,8 +36,8 @@
 		<Metadata name="Catalog.AINSYS_ОписаниеДанных.Form.ФормаЭлемента" id="465d22f5-29e0-4e99-9e1a-63ab56759f8f" configVersion="bb6c625254198c3712167e34368e1dd5e687898f"/>
 		<Metadata name="Catalog.AINSYS_ОписаниеДанных.Form.ФормаЭлемента.Form" id="465d22f5-29e0-4e99-9e1a-63ab56759f8f.0" configVersion="ac7714947b710fe0d728459fcd5d84df20cceb89"/>
 		<Metadata name="Catalog.AINSYS_ОписаниеДанных.Help" id="5b4665a7-d2e0-40df-ac72-f127f50e65a6.1" configVersion="a016e971ad78e3a774122168c22bc274b7a13800"/>
-		<Metadata name="Catalog.AINSYS_ОписаниеДанных.ManagerModule" id="5b4665a7-d2e0-40df-ac72-f127f50e65a6.3" configVersion="e4717824f3201170d0a7e43e384fe927c64b774b"/>
-		<Metadata name="Catalog.AINSYS_ОписаниеДанных.ObjectModule" id="5b4665a7-d2e0-40df-ac72-f127f50e65a6.0" configVersion="89e27067090ce096662e5ec9414c889b95b69cf0"/>
+		<Metadata name="Catalog.AINSYS_ОписаниеДанных.ManagerModule" id="5b4665a7-d2e0-40df-ac72-f127f50e65a6.3" configVersion="f41efb4914420ac2ec87347380269b53217be43a"/>
+		<Metadata name="Catalog.AINSYS_ОписаниеДанных.ObjectModule" id="5b4665a7-d2e0-40df-ac72-f127f50e65a6.0" configVersion="3ad1d270d73e5f4c510f35c7e7b836b64fff8a75"/>
 		<Metadata name="Catalog.AINSYS_ОписаниеДанных.Template.ОписаниеВизуальное" id="4bdb5a27-f823-4c9d-a5ca-9d10f39dc0ce" configVersion="0dc0294588d1e73b11edb62063c935f9b571cd62"/>
 		<Metadata name="Catalog.AINSYS_ОписаниеДанных.Template.ОписаниеВизуальное.Template" id="4bdb5a27-f823-4c9d-a5ca-9d10f39dc0ce.0" configVersion="7d997e594b4c629c84afa2069fd68e8d34092813"/>
 		<Metadata name="Catalog.AINSYS_ОписаниеДанных.Template.ОписаниеДляВнешнейСистемы" id="2a3b01fe-d871-4950-82b6-1c6cab5faab7" configVersion="3bb875bcd145613876ee9b95af45ecc95c3e7285"/>
@@ -52,18 +52,18 @@
 		</Metadata>
 		<Metadata name="Catalog.AINSYS_ПланыСинхронизации.Form.ФормаЭлемента" id="6ddef29f-da2b-47cf-a14a-cc089faaa9ff" configVersion="48e8ba1981f5b43fbf0b5adc00be76b56a273a71"/>
 		<Metadata name="Catalog.AINSYS_ПланыСинхронизации.Form.ФормаЭлемента.Form" id="6ddef29f-da2b-47cf-a14a-cc089faaa9ff.0" configVersion="de42ab3e2b31f5fd38750a24bc5f24792b245dbd"/>
-		<Metadata name="Catalog.AINSYS_ПланыСинхронизации.ObjectModule" id="874644e0-8dd9-4bf3-9ab7-461c96b887af.0" configVersion="746a2e5f2d9567fe997852ba2b3450cec907bf76"/>
+		<Metadata name="Catalog.AINSYS_ПланыСинхронизации.ObjectModule" id="874644e0-8dd9-4bf3-9ab7-461c96b887af.0" configVersion="7dec20e32a4b1b2f6c95f50e97bddad87d980e6d"/>
 		<Metadata name="CommonModule.AINSYS_HTTP" id="1b5a4460-b026-4d1b-bc4a-a6554403cdbf" configVersion="164832725af939d488b063137f71018ed436d890"/>
-		<Metadata name="CommonModule.AINSYS_HTTP.Module" id="1b5a4460-b026-4d1b-bc4a-a6554403cdbf.0" configVersion="592eb8e795d6b9bce5f4634a39a739d5fa426985"/>
+		<Metadata name="CommonModule.AINSYS_HTTP.Module" id="1b5a4460-b026-4d1b-bc4a-a6554403cdbf.0" configVersion="44d9befa441aeb3e6d038420f9fd48273ac93e16"/>
 		<Metadata name="CommonModule.AINSYS_Определяемый" id="d7290498-0d3e-4040-80d9-4fdeaa62b90f" configVersion="3152d72524a81a022723d2257ef35421821b6cb8"/>
-		<Metadata name="CommonModule.AINSYS_Определяемый.Module" id="d7290498-0d3e-4040-80d9-4fdeaa62b90f.0" configVersion="e63606673603a91298e4737708801320691b44a7"/>
+		<Metadata name="CommonModule.AINSYS_Определяемый.Module" id="d7290498-0d3e-4040-80d9-4fdeaa62b90f.0" configVersion="3334b38b8e4afe0d3c50a705ea299209cbe943b6"/>
 		<Metadata name="CommonModule.AINSYS_сервер" id="d596817e-78d7-45fb-972e-ecf0f168c7e3" configVersion="96e96fa9e7e0d163a6fa463080cfa46d8fa74424"/>
-		<Metadata name="CommonModule.AINSYS_сервер.Module" id="d596817e-78d7-45fb-972e-ecf0f168c7e3.0" configVersion="53439109fe58782b86b9b9686b823a9816c71ab3"/>
+		<Metadata name="CommonModule.AINSYS_сервер.Module" id="d596817e-78d7-45fb-972e-ecf0f168c7e3.0" configVersion="603dd5fbcb2a1b09ed1c17faafd63b5a576e76e6"/>
 		<Metadata name="CommonPicture.AINSYS" id="4cce8408-8aa9-4c68-a229-f7c40439e242" configVersion="f2b9ab3bd178f98132b026b74250c3b0c10b9603"/>
 		<Metadata name="CommonPicture.AINSYS.Picture" id="4cce8408-8aa9-4c68-a229-f7c40439e242.0" configVersion="771e26af835f8eec187f71a1b291fc54e583be37"/>
 		<Metadata name="CommonPicture.AINSYS_32" id="8413b2b1-060f-47f7-95a6-0d72c00954e1" configVersion="e34e879ba106b582421544830283c5fcecca72e8"/>
 		<Metadata name="CommonPicture.AINSYS_32.Picture" id="8413b2b1-060f-47f7-95a6-0d72c00954e1.0" configVersion="ee3deaf012fe7658d420a52cfb90212c46ecd6de"/>
-		<Metadata name="Configuration.AINSYS" id="3a3373d0-f996-4d14-b9bb-49406c3b2d30" configVersion="3b31dde0b5826401a64184ea10df32b05eb17b55"/>
+		<Metadata name="Configuration.AINSYS" id="3a3373d0-f996-4d14-b9bb-49406c3b2d30" configVersion="fc5effa48169bad58e13e60f7eb68779eae000f9"/>
 		<Metadata name="Configuration.AINSYS.Logo" id="fe941078-c598-49b6-abff-b7fa3fee43ab.1" configVersion="771e26af835f8eec187f71a1b291fc54e583be37"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML" id="c43503dd-4c23-4a27-9737-b3abf98dda5a" configVersion="3d8bf03116d08900720ac2dfcb8a99e369a32cb5">
 			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ИмяФайлаПравилОбмена" id="0ecb673f-0e8e-454b-95bd-bc777e20fcc0"/>
@@ -141,14 +141,14 @@
 			<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Attribute.ТипУдаленияРегистрацииИзмененийДляУзловОбменаПослеВыгрузки" id="fcb219c1-1e83-4fcc-8b38-cde6304d192e"/>
 		</Metadata>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма" id="7a009956-c17c-45ec-a128-561e53efcf85" configVersion="ca0b551a1556556837cee7715ae8496551328243"/>
-		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма.Form" id="7a009956-c17c-45ec-a128-561e53efcf85.0" configVersion="9c8aa7d2bab540d20521291787c76a2a6812d827"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФорма.Form" id="7a009956-c17c-45ec-a128-561e53efcf85.0" configVersion="f30c38834dc7e82b5695866ea37241f6b7f42cca"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФормаНастройкиОтладкиОбработчиков" id="29cac165-4e60-4ec6-8f90-ad2385a3b7b8" configVersion="331fa3168e3c5649f457ad7b4625aba75119fa34"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Form.УправляемаяФормаНастройкиОтладкиОбработчиков.Form" id="29cac165-4e60-4ec6-8f90-ad2385a3b7b8.0" configVersion="a32b9a4fa0581c764a8c3f102e1a10e256b04085"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Help" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.1" configVersion="ff773bc057a4790867b9dbcfd03870c9e66698a8"/>
-		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.ManagerModule" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.2" configVersion="5cb1894a24dbd13c8aabfec9d8c790868479c723"/>
-		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.ObjectModule" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.0" configVersion="640e304f7b16bcf53f9ae21d6e6251f9f3b55c95"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.ManagerModule" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.2" configVersion="7dec20e32a4b1b2f6c95f50e97bddad87d980e6d"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.ObjectModule" id="c43503dd-4c23-4a27-9737-b3abf98dda5a.0" configVersion="e7b2beddb68d176f639f99716b7b93ab8324172b"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.AINSYS_ПравилаВыгрузкиНастроек" id="4b69ec10-3e7d-4131-94d2-b0e2b422aa84" configVersion="7b4cbc5859c0649468d36bd3a50e286bfaba693c"/>
-		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.AINSYS_ПравилаВыгрузкиНастроек.Template" id="4b69ec10-3e7d-4131-94d2-b0e2b422aa84.0" configVersion="4a65ded05a5e98838c08864de020057c37939326"/>
+		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.AINSYS_ПравилаВыгрузкиНастроек.Template" id="4b69ec10-3e7d-4131-94d2-b0e2b422aa84.0" configVersion="1f9210ce928f9a108cbcef9db7984a426479121e"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ОбщиеПроцедурыФункции" id="d654cada-45ff-408b-a068-f68e6a314de8" configVersion="821bfa23627d472b2860f87cc9c3438983eeb19d"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ОбщиеПроцедурыФункции.Template" id="d654cada-45ff-408b-a068-f68e6a314de8.0" configVersion="cf12b08f317ff47c32119cc7d7ae113aad67169f"/>
 		<Metadata name="DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML.Template.ПараметрыОбработчиков" id="6bf03f5e-a0ae-4252-a6fd-0313ba404858" configVersion="8b3ad4667d87ce0cd623300acf88938502451923"/>
@@ -167,7 +167,7 @@
 			<Metadata name="Enum.AINSYS_ТипыДанных.EnumValue.Дата" id="94c7de53-2190-4571-8dba-38681e4dcdfd"/>
 			<Metadata name="Enum.AINSYS_ТипыДанных.EnumValue.Булево" id="cd77a5ac-eda3-4f96-9c5d-c5336bc66125"/>
 		</Metadata>
-		<Metadata name="Enum.AINSYS_ТипыДанных.ManagerModule" id="3128f4f2-2aa7-4960-b540-9eb8042bb2af.0" configVersion="ccddb943d6ae0d16a291602fb3a964d3c394f79e"/>
+		<Metadata name="Enum.AINSYS_ТипыДанных.ManagerModule" id="3128f4f2-2aa7-4960-b540-9eb8042bb2af.0" configVersion="7a2006bf1be49bde6d94e8f271e53845a29cec35"/>
 		<Metadata name="HTTPService.AINSYS_сервис" id="728c9c56-89b2-40f6-8805-762c9723e49b" configVersion="7c5dd520c55c67b9518459aac59d78a71a6a6178">
 			<Metadata name="HTTPService.AINSYS_сервис.URLTemplate.data.Method.GET" id="0246fefc-0e0f-43f2-be08-00c58f9c7bcc"/>
 			<Metadata name="HTTPService.AINSYS_сервис.URLTemplate.Корень.Method.POST" id="0b731581-4e58-4b4d-93b2-9196aae04b0d"/>
@@ -182,7 +182,7 @@
 			<Metadata name="HTTPService.AINSYS_сервис.URLTemplate.Корень" id="dd38d26c-d02b-4a93-9b5d-ec3294bda4a8"/>
 			<Metadata name="HTTPService.AINSYS_сервис.URLTemplate.ping" id="e969effb-af12-4c21-951d-6838bc3e4acc"/>
 		</Metadata>
-		<Metadata name="HTTPService.AINSYS_сервис.Module" id="728c9c56-89b2-40f6-8805-762c9723e49b.0" configVersion="4b9f73bd293a3f07b6c129a7b9e2287bd837240c"/>
+		<Metadata name="HTTPService.AINSYS_сервис.Module" id="728c9c56-89b2-40f6-8805-762c9723e49b.0" configVersion="911eacc76e57deea453d61d9337ce16b7a4e7006"/>
 		<Metadata name="InformationRegister.AINSYS_Журнал" id="4bb06019-1d89-4041-a8ed-9717ab813f3f" configVersion="ffe4d95daa09a6750a8fafb5519304d3eba2c213">
 			<Metadata name="InformationRegister.AINSYS_Журнал.Dimension.ДатаСобытия" id="628a1632-74f1-48ed-a0c9-b69bbe0d6a3c"/>
 			<Metadata name="InformationRegister.AINSYS_Журнал.Dimension.ПравилоОбмена" id="b0a39731-9842-4f62-9963-38ac1e5feb30"/>
