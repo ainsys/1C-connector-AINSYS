@@ -15,5 +15,6 @@ AINSYS 1C universal connector. A framework to integrate with any 1C system!
 
 Дополнительные материалы:
   - AinsysDemo.dt - выгрузка демонстрационной базы.
-  - Мануал AINSYS для специалиста 1С.docx - описание разработки.
+  - Мануал AINSYS для специалиста 1С.docx - описание разработки и ее установки https://docs.google.com/document/d/1uxG4Ow_JQdeVYJDDVdZDcqCNApZQ9724ZJgFh-c9BMk/edit#
   - В папке files расположен программный код расширения в виде конфигурации в xml файлах.
+  - Вы можете скачать последнюю сборку конфигурации прямо с Гитхаб - ищите в корневой папке файлы с расширением .CFE
