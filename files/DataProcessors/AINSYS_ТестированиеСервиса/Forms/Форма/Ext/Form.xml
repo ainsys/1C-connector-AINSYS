@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Группа2" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа2</v8:content>
+				</v8:item>
+			</Title>
+			<Behavior>Usual</Behavior>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="АдресСервиса" id="1">
+					<DataPath>АдресСервиса</DataPath>
+					<ContextMenu name="АдресСервисаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="АдресСервисаРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">АдресСервисаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="КлючПланаСинхронизации" id="15">
+					<DataPath>КлючПланаСинхронизации</DataPath>
+					<ContextMenu name="КлючПланаСинхронизацииКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="КлючПланаСинхронизацииРасширеннаяПодсказка" id="17"/>
+					<Events>
+						<Event name="OnChange">КлючПланаСинхронизацииПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="АдресДляВходящихPOSTзапросов" id="18">
+			<DataPath>АдресДляВходящихPOSTзапросов</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="АдресДляВходящихPOSTзапросовКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="АдресДляВходящихPOSTзапросовРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<InputField name="ОписаниеИнтерфейсаHTML" id="21">
+			<DataPath>ОписаниеИнтерфейсаHTML</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ОписаниеИнтерфейсаHTMLКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="ОписаниеИнтерфейсаHTMLРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="ОписаниеИнтерфейсаJSON" id="24">
+			<DataPath>ОписаниеИнтерфейсаJSON</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ОписаниеИнтерфейсаJSONКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="ОписаниеИнтерфейсаJSONРасширеннаяПодсказка" id="26"/>
+		</InputField>
+		<Pages name="Группа1" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа1</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="8"/>
+			<ChildItems>
+				<Page name="Товары" id="9">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Товары</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Запись товаров</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ТоварыРасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<Button name="СоздатьТовар" id="11">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.СоздатьТовар</CommandName>
+							<ExtendedTooltip name="СоздатьТоварРасширеннаяПодсказка" id="12"/>
+						</Button>
+						<TextDocumentField name="ЗапросНаСозданиеТовара" id="4">
+							<DataPath>ЗапросНаСозданиеТовара</DataPath>
+							<ContextMenu name="ЗапросНаСозданиеТовараКонтекстноеМеню" id="5"/>
+							<ExtendedTooltip name="ЗапросНаСозданиеТовараРасширеннаяПодсказка" id="6"/>
+						</TextDocumentField>
+					</ChildItems>
+				</Page>
+				<Page name="ПолучениеСОтбором" id="35">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получение GET запросом с отбором</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПолучениеСОтборомРасширеннаяПодсказка" id="36"/>
+					<ChildItems>
+						<Button name="GET_Запрос" id="37">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.GET_Запрос</CommandName>
+							<ExtendedTooltip name="GET_ЗапросРасширеннаяПодсказка" id="38"/>
+						</Button>
+						<InputField name="АрдресДляGET_запроса" id="32">
+							<DataPath>АрдресДляGET_запроса</DataPath>
+							<ContextMenu name="АрдресДляGET_запросаКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="АрдресДляGET_запросаРасширеннаяПодсказка" id="34"/>
+						</InputField>
+						<TextDocumentField name="СтруктураДляОтбора" id="29">
+							<DataPath>СтруктураДляОтбора</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Структура для отбора. Отбор возможен только по полям верхнего уровня группировки.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СтруктураДляОтбораКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="СтруктураДляОтбораРасширеннаяПодсказка" id="31"/>
+						</TextDocumentField>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<TextDocumentField name="ОтветНаЗапрос" id="41">
+			<DataPath>ОтветНаЗапрос</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<ContextMenu name="ОтветНаЗапросКонтекстноеМеню" id="42"/>
+			<ExtendedTooltip name="ОтветНаЗапросРасширеннаяПодсказка" id="43"/>
+		</TextDocumentField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.AINSYS_ТестированиеСервиса</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="АдресСервиса" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес сервиса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗапросНаСозданиеТовара" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запрос на создание товара</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="КлючПланаСинхронизации" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ключ плана синхронизации</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АдресДляВходящихPOSTзапросов" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес для входящих POSTзапросов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОписаниеИнтерфейсаHTML" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание интерфейса HTML</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОписаниеИнтерфейсаJSON" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Описание интерфейса JSON</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="СтруктураДляОтбора" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Структура для отбора</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="АрдресДляGET_запроса" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ардрес для GET запроса</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ОтветНаЗапрос" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ответ на запрос</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СоздатьТовар" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать товар</v8:content>
+				</v8:item>
+			</Title>
+			<Action>СоздатьТовар</Action>
+		</Command>
+		<Command name="GET_Запрос" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>GET запрос</v8:content>
+				</v8:item>
+			</Title>
+			<Action>GET_Запрос</Action>
+		</Command>
+	</Commands>
+</Form>

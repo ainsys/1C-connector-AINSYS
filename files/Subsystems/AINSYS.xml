@@ -30,6 +30,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.AINSYS_НовыеПоля</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.AINSYS_Журнал</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.AINSYS_УниверсальныйОбменДаннымиXML</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.AINSYS_ТестированиеСервиса</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
